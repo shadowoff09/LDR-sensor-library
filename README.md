@@ -2,6 +2,21 @@
 
 This is an Arduino library for interfacing with an LDR (Light Dependent Resistor) sensor. With this library, you can easily read the analog value of an LDR sensor connected to your Arduino board.
 
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Full Example](#full-example)
+- [Wiring](#wiring)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Simple and easy to use
+- Supports multiple LDR sensors on the same Arduino board
+- Supports all Arduino boards
+
 ## Installation
 
 To install this library, download the zip file from the repository and extract it to the `libraries` directory of your Arduino sketchbook. Alternatively, you can clone the repository into your `libraries` directory using Git:
@@ -57,6 +72,10 @@ void loop() {
   int sensorValue = mySensor.read();
 }
 ```
+
+## Wiring
+
+![Wiring Diagram](assets/wiring.png)
 
 ## Contributing
 If you find a bug or have an idea for a feature, feel free to create an issue or pull request on the GitHub repository. Contributions are always welcome!
